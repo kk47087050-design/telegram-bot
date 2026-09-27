@@ -39,12 +39,12 @@ telegram电报分享: 75000➕中文最大社区群组和频道、机器人bot�
 ### ⚡ 能量与链上服务
 
 > #### ⚡ 能量闪租 24H
-> * **地址**：`TGuXv6H1s84cmQZk7akvWHC6P789999999`
+> * **地址**：`TCpS5WEtHag3xhjUg7NtD8SbAADET5Yccj`
 > * **费率说明**：
->   - 🟢 1 笔 USDT 转账能量：**3 TRX**
->   - 🟢 2 笔 USDT 转账能量：**6 TRX**
+>   - 🟢 1 笔 USDT 转账能量：**2 TRX**
+>   - 🟢 2 笔 USDT 转账能量：**4 TRX**
 
 > #### 🔀 TRX 24H 闪兑
-> * **地址**：`TY4etzSftahyH5DYDMqSKDuPs93WWWWW`
+> * **地址**：`T9zEgWzVFryhbG4C5u7BQU2yK3KbDb3BM9`
 > * **兑换规则**：TRX-USDT 24 小时自动兑换，1U 起兑。
 
