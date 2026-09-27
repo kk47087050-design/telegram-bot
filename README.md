@@ -6,7 +6,7 @@
 
 | 名字 | 链接 | 功能描述 |
 | :--- | :--- | :--- |
-| **你搜** ** | [@nisou](https://t.me/nisou) | 关键词搜索群组/频道/视频，带“nisou”后缀可赚取 0.5 USDT，投放广告，充值优惠 📣 [广告折扣](https://t.me/nisou) |
+| **你搜 ** | [@nisou](https://t.me/nisou) | 关键词搜索群组/频道/视频，带“nisou”后缀可赚取 0.5 USDT，投放广告，充值优惠 📣 [广告折扣](https://t.me/nisou) |
 | **JISO** | [@jiso](https://t.me/jiso) | 发送词语帮你找到有趣的群、频道、视频、音乐、电影、新闻 |
 | **海搜** | [@haisou](https://t.me/haisou) | 发送关键词，即可发现频道、群组、视频、音乐、图片、文件与帖子 |
 | **极搜JiSou** | [@jisou](https://t.me/jisou) | 发送词语帮你找到有趣的群、频道、视频、音乐、电影、新闻，投放广告，享受5%的充值优惠 📣 [广告折扣](https://t.me/jisou) |
