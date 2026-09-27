@@ -5,7 +5,7 @@ telegram电报分享: 75000➕中文最大社区群组和频道、机器人bot�
 
 > 💡 **小提示**：点击下方链接即可直接跳转或使用对应的 Telegram 机器人。
 
-### 🔍 Telegram `热门`中文智能搜索机器人
+### 🔍 Telegram 热门中文智能搜索机器人
 
 > #### 🚀 你搜 nisou  
 > * **入口链接**：[@nisou](https://t.me/nisou)
