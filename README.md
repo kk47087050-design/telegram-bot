@@ -74,6 +74,17 @@ telegram电报分享: 75000➕中文最大社区群组和频道、机器人、�
 | 大事件吃瓜 | [@bbyo6](https://t.me/Hy598) | 聚焦东南亚动态资讯、生活故事分享、 |
 | 吃瓜新鲜事·曝光 | [@mrcgfl](https://t.me/mrcgfl) | 让大家足不出户，了解全球趣事 |
 
+## 地区修车大群
+
+| 名字 | 链接 | 功能描述 |
+| :--- | :--- | :--- |
+| 广州佛山、出击群 | [@gzafua](https://t.me/gzafua) | 打造广州佛山出击群组公开平台|
+| 广州学院派 | [@gzxyp](https://t.me/gzxyp) | 广州学院女神聚集地 |
+| 佛山修车资源交流群 | [@fsxiuche](https://t.me/fsxiuche) | 同城交流，不做舔狗 |
+| 佛山狼友出击大队 | [@otcbanc](https://t.me/fsxiuche) | 广佛靓仔靓女聚集地 |
+| 上海 喜茶 茶友群 | [@xichacysh](https://t.me/xichacysh) | 喜茶茶友群，有最全、分类最细的老师信息 |
+| 上海奶茶妹交流群 | [@suming00](https://t.me/suming00) | 生活偶尔苦 奶茶永远甜 |
+
 # Telegram 机器人开发与定制服务
 
 这里提供关于 Telegram 机器人创建的官方渠道以及个人的定制开发服务。
