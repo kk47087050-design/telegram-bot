@@ -1,48 +1,309 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="SON1sSQxbKp1KY61JC7K7XD-GqgMxGLtd3JBmpmMBzA" />
-  <meta name="keywords" content="Telegram, 电报机器人, Telegram中文搜索, 你搜, 极搜, Telegram导航">
-  <meta name="description" content="电报中文圈导航与生态矩阵，提供热门中文智能搜索机器人服务。">
-  <title>电报中文圈导航与生态矩阵</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 30px 20px; color: #333; }
-    h1 { color: #222; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-    .features { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #e9ecef; }
-    .features h2 { margin-top: 0; color: #0088cc; font-size: 1.3em; }
-    .features ul { padding-left: 20px; }
-    .features li { margin-bottom: 10px; }
-    .bot-btn { display: inline-block; background: #0088cc; color: #fff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1em; transition: background 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    .bot-btn:hover { background: #0077b5; text-decoration: none; }
-    .footer { margin-top: 40px; font-size: 0.9em; color: #777; text-align: center; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电报机器人 - 自述文件</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 模拟 GitHub Markdown 样式 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            background-color: #f6f8fa;
+        }
+        .markdown-body {
+            color: #24292f;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+        .markdown-body h1 { margin-top: 24px; margin-bottom: 16px; font-weight: 600; font-size: 2em; border-bottom: 1px solid #d0d7de; padding-bottom: .3em; }
+        .markdown-body h2 { margin-top: 24px; margin-bottom: 16px; font-weight: 600; font-size: 1.5em; border-bottom: 1px solid #d0d7de; padding-bottom: .3em; }
+        .markdown-body h3 { margin-top: 24px; margin-bottom: 16px; font-weight: 600; font-size: 1.25em; }
+        .markdown-body a { color: #0969da; text-decoration: none; }
+        .markdown-body a:hover { text-decoration: underline; }
+        .markdown-body p { margin-top: 0; margin-bottom: 16px; }
+        .markdown-body blockquote { padding: 0 1em; color: #57606a; border-left: .25em solid #d0d7de; margin: 0 0 16px 0; }
+        .markdown-body ul { margin-top: 0; margin-bottom: 16px; padding-left: 2em; list-style-type: disc; }
+        .markdown-body li { margin-top: .25em; }
+        .markdown-body table { border-spacing: 0; border-collapse: collapse; margin-top: 0; margin-bottom: 16px; width: 100%; overflow: auto; }
+        .markdown-body table th { font-weight: 600; }
+        .markdown-body table th, .markdown-body table td { padding: 6px 13px; border: 1px solid #d0d7de; }
+        .markdown-body table tr { background-color: #ffffff; border-top: 1px solid #d0d7de; }
+        .markdown-body table tr:nth-child(2n) { background-color: #f6f8fa; }
+        .markdown-body code { padding: .2em .4em; margin: 0; font-size: 85%; background-color: rgba(175,184,193,0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;}
+        
+        /* 侧边灰线列表样式 */
+        .feature-block { border-left: 3px solid #d0d7de; padding-left: 16px; margin-bottom: 16px; }
+    </style>
 </head>
-<body>
-  
-  <h1>电报中文圈导航与生态矩阵</h1>
-  <p>欢迎来到全网领先的 Telegram 中文生态导航！我们致力于打破电报中文圈的信息孤岛，为您提供高效、精准的频道与群组检索服务。</p>
+<body class="p-4 md:p-8">
 
-  <div class="features">
-    <h2>🔥 核心产品：「你搜」智能搜索机器人</h2>
-    <p>汇聚 75000+ 中文最大社区群组和频道、机器人，覆盖科技、行业前沿、全局视野。无论您是寻找高活跃交流圈，还是探索核心圈层，都能一触即达。</p>
-    <ul>
-      <li><strong>海量数据生态：</strong> 实时收录全网优质中文频道，动态过滤失效信息，告别群组难找的烦恼。</li>
-      <li><strong>极速并发检索：</strong> 采用企业级检索引擎与分布式缓存架构，无惧高并发，毫秒级返回精准搜索结果。</li>
-      <li><strong>智能排序算法：</strong> 基于互动率和活跃度的动态权重计算，为您优先展示最优质、最可靠的频道资源。</li>
-    </ul>
-  </div>
+    <div class="max-w-5xl mx-auto bg-white border border-gray-200 rounded-md shadow-sm">
+        
+        <!-- 顶部标签栏 -->
+        <div class="bg-gray-50 border-b border-gray-200 px-4 py-3 rounded-t-md flex items-center text-sm font-semibold text-gray-700">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" class="mr-2 fill-gray-500"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1.5h-8a1 1 0 00-1 1v6.708A2.492 2.492 0 014.5 9h8V1z"></path></svg>
+            自述文件
+        </div>
 
-  <p>无需等待，立即体验全网最懂你的中文智能搜索助手：</p>
-  
-  <div style="text-align: center; margin-top: 30px;">
-    <a href="https://t.me/nisou" class="bot-btn" target="_blank">👉 点击立即启动「你搜」机器人 (@nisou)</a>
-  </div>
+        <!-- 核心内容区 -->
+        <div class="p-6 md:p-10 markdown-body">
+            
+            <h1>电报机器人</h1>
+            
+            <p>telegram电报分享：75000➕中文最大社区群体和频道、机器人、覆盖科技、行业前沿、全局视野、一触即达、汇聚telegram汉化中文的高活跃交流圈、助你轻松探索核心圈层。</p>
+            
+            <h1>自述文件</h1>
 
-  <div class="footer">
-    <p>提供稳定、安全的 Telegram 中文生态服务</p>
-  </div>
+            <h2>⚡ 电报中文圈导航与生态矩阵</h2>
 
+            <blockquote>
+                💡 小提示：点击下方链接即可直接跳转或使用对应的 Telegram 机器人。
+            </blockquote>
+
+            <h3>🔍 Telegram 热门中文 智能搜索机器人</h3>
+
+            <div class="feature-block">
+
+                <div class="font-semibold mb-2">🚀 你搜nisou</div>
+                <ul>
+                    <li>入口链接：<a href="https://t.me/nisou">@nisou</a></li>
+                    <li>功能描述：发送搜索关键词帮助找到有趣的群组、频道、视频、音乐、新闻、帖子、电影</li>
+                </ul>
+            </div>
+
+            <div class="feature-block">
+                <div class="font-semibold mb-2">🚀 极搜jisou</div>
+                <ul>
+                    <li>入口链接：<a href="https://t.me/jisou">@jisou</a></li>
+                    <li>功能描述：发送关键词即可搜索相应的内容、频道、群体、电影、音乐、电子书、新闻</li>
+                </ul>
+            </div>
+
+            <div class="feature-block">
+                <div class="font-semibold mb-2">🚀 新币搜xbso</div>
+                <ul>
+                    <li>入口链接：<a href="https://t.me/xbso">@xbso</a></li>
+                    <li>功能描述：输入关键词立即查找,群组,频道,视频,音乐,新闻</li>
+                </ul>
+            </div>
+
+            <div class="feature-block">
+                <div class="font-semibold mb-2">🚀 搜搜搜搜</div>
+                <ul>
+                    <li>入口链接：<a href="https://t.me/soso">@soso</a></li>
+                    <li>功能描述：发关键词即可查到想要的群组和频道内容</li>
+                </ul>
+            </div>
+            <h3>🌐 机场节点与网络服务</h3>
+
+            <div class="feature-block">
+                <div class="font-semibold mb-2">✈️ 机场推荐导航</div>
+                <ul>
+                    <li>入口链接：<a href="#">点击进入闪连</a></li>
+                    <li>功能描述：2026高速机场、VPN全球地区节点便捷切换。</li>
+                </ul>
+            </div>
+
+            <div class="feature-block">
+                <div class="font-semibold mb-2">✈️ 狗急机场</div>
+                <ul>
+                    <li>入口链接：<a href="#">点击进入狗急</a></li>
+                    <li>功能描述：网速稳定不卡顿，一秒仅需，价格便宜。</li>
+                </ul>
+            </div>
+
+            <h2>⚡ TRX能量与链上服务</h2>
+
+            <div class="feature-block">
+                <div class="font-semibold mb-2">⚡ 能量闪租24H</div>
+                <ul>
+                    <li>地址：<code>TCpS5WEtHag3xhJUg7NtD8SbAADET5Yccj</code></li>
+                    <li>费率说明：&lt;
+                        <ul>
+                            <li>🟢 1笔 USDT转账能量：2 TRX</li>
+                            <li>🟢 2笔USDT转账能量：4 TRX</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="feature-block">
+                <div class="font-semibold mb-2">💱 TRX 24H 闪兑</div>
+                <ul>
+                    <li>地址：<code>T9zEgWzVFryhbG4C5u7BQU2yK3KbDb3BM9</code></li>
+                    <li>兑换规则：TRX-USDT 24小时自动兑换，1U起兑。</li>
+                </ul>
+            </div>
+
+            <h3>🔍 电报群组搜索</h3>
+
+            <div class="feature-block bg-gray-50 py-2 rounded-r">
+                <div class="font-semibold mb-2">🎥 24H搜索群大全</div>
+                <ul class="mb-0">
+                    <li>搜索群1：<a href="#">点击进入</a></li>
+                    <li>搜索群2：<a href="#">点击进入</a></li>
+                    <li>搜索群3：<a href="#">点击进入</a></li>
+                    <li>搜索群4：<a href="#">点击进入</a></li>
+                    <li>搜索群5：<a href="#">点击进入</a></li>
+                    <li>搜索群6：<a href="#">点击进入</a></li>
+                    <li>搜索群7：<a href="#">点击进入</a></li>
+                    <li>搜索群8：<a href="#">点击进入</a></li>
+                    <li>搜索群9：<a href="#">点击进入</a></li>
+                </ul>
+            </div>
+            <h2>Telegram电报最实用的机器人 🤖</h2>
+            
+            <p>群体管理，多功能，搬运，团队机器人。</p>
+
+            <h3>机器人列表</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>名字</th>
+                        <th>链接</th>
+                        <th>功能描述</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TGBot</td>
+                        <td><a href="https://t.me/tgbot">@tgbot</a></td>
+                        <td>让频道&群组管理更智能！</td>
+                    </tr>
+                    <tr>
+                        <td>模块化机器人</td>
+                        <td><a href="https://t.me/ModularBot">@ModularBot</a></td>
+                        <td>好用的肢体机器人，支持中文版本</td>
+                    </tr>
+                    <tr>
+                        <td>电报狗 发卡机器人</td>
+                        <td><a href="https://t.me/tgdbdogfa_bot">@tgdbdogfa_bot</a></td>
+                        <td>频道内容搬运，电报狗</td>
+                    </tr>
+                    <tr>
+                        <td>BBQ炒群机器人</td>
+                        <td><a href="https://t.me/mooxzbot">@mooxzbot</a></td>
+                        <td>支持多账号登陆炒群</td>
+                    </tr>
+                    <tr>
+                        <td>方丈多功能群管机器人</td>
+                        <td><a href="https://t.me/fangzhang1_bot">@fangzhang1_bot</a></td>
+                        <td>新人进群验证、新人进群欢迎词、垃圾信息拦截、自动回复</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Telegram 新闻吃瓜最新报道 🍉</h2>
+
+            <p>这里提供关于Telegram吃瓜、热点、实时更新。</p>
+
+            <h3>吃瓜列表</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>名字</th>
+                        <th>链接</th>
+                        <th>功能描述</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>新闻资讯最新动态</td>
+                        <td><a href="https://t.me/新日宝">@新日宝</a></td>
+                        <td>分享最新东南亚实时动态,</td>
+                    </tr>
+                    <tr>
+                        <td>大事件吃瓜</td>
+                        <td><a href="https://t.me/bbyo6">@bbyo6</a></td>
+                        <td>聚焦东南亚动态资讯、生活故事分享、</td>
+                    </tr>
+                    <tr>
+                        <td>吃瓜新鲜事·曝光</td>
+                        <td><a href="https://t.me/mrcgfl">@mrcgfl</a></td>
+                        <td>让大家足不出户，了解全球趣事</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>地区修车大群</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>名字</th>
+                        <th>链接</th>
+                        <th>功能描述</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>广州佛山、出击群</td>
+                        <td><a href="https://t.me/gzafua">@gzafua</a></td>
+                        <td>打造广州佛山出击人群公开平台</td>
+                    </tr>
+                    <tr>
+                        <td>广州学院派</td>
+                        <td><a href="https://t.me/gzxyp">@gzxyp</a></td>
+                        <td>广州学院女神聚集地</td>
+                    </tr>
+                    <tr>
+                        <td>佛山修车资源交流群</td>
+                        <td><a href="https://t.me/fsxiuche">@fsxiuche</a></td>
+                        <td>同城交流，不做舔狗</td>
+                    </tr>
+                    <tr>
+                        <td>佛山狼友出击大队</td>
+                        <td><a href="https://t.me/otcbanc">@otcbanc</a></td>
+                        <td>广佛靓仔靓女聚集地</td>
+                    </tr>
+                    <tr>
+                        <td>上海喜茶茶友群</td>
+                        <td><a href="https://t.me/xichacysh">@xichacysh</a></td>
+                        <td>喜茶茶友群，有最全、分类最细的老师信息</td>
+                    </tr>
+                    <tr>
+                        <td>上海奶茶妹交流群</td>
+                        <td><a href="https://t.me/suming00">@suming00</a></td>
+                        <td>生活偶尔苦奶茶永远甜</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Telegram机器人开发与定制服务</h2>
+
+            <p>这里提供有关 Telegram 机器人创建的官方渠道以及个人的定制开发服务。</p>
+
+            <h3>服务列表</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>名字</th>
+                        <th>链接</th>
+                        <th>功能描述</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>创建属于自己的电报机器人</td>
+                        <td><a href="https://t.me/BotFather">@BotFather</a></td>
+                        <td>可以创建和管理专用机器人的位置，开发者将获得一个API令牌，用于控制机器人并接入Telegram API</td>
+                    </tr>
+                    <tr>
+                        <td>接电报机器人开发定制</td>
+                        <td>商务联系：<br><a href="https://t.me/hy598">@hy598</a></td>
+                        <td>接电报全类型业务功能机器人开发定制、多功能高效管理</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>定制说明</h3>
+            <p>如果您有专属机器人的开发需求，请通过表格中的联系方式进行沟通。请注意：接全类型功能机器人项目开发。</p>
+
+        </div>
+    </div>
 </body>
 </html>
+
+
