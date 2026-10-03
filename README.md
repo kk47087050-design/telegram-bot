@@ -61,6 +61,19 @@ telegram电报分享: 75000➕中文最大社区群组和频道、机器人、�
 > * **搜索群7**：[点击进入](https://t.me/susou89)
 > * **搜索群8**：[点击进入](https://t.me/souqunzu12)
 > * **搜索群9**：[点击进入](https://t.me/soso9577)
+# Telegram 电报最实用机器人🤖
+
+群组管理，多功能，搬运，双向机器人。
+
+## 机器人列表
+
+| 名字 | 链接 | 功能描述 |
+| :--- | :--- | :--- |
+| TGBot | [@tgbot](https://t.me/tgbot) | 让频道 & 群组管理更智能！ |
+| ModularBot | [@ModularBot](https://t.me/ModularBot) | 好用的双向机器人，支持中文版本 |
+| 电报狗 发卡机器人 | [@tgdbdogfa_bot](https://t.me/tgdbdogfa_bot) | 频道内容搬运，电报狗 |
+| BBQ 炒群机器人 | [@mooxzbot](https://t.me/mooxzbot) | 支持多账号登陆炒群 |
+| 方丈 多功能群管机器人 | [@fangzhang1_bot](https://t.me/fangzhang1_bot) | 新人进群验证、新人进群欢迎词、垃圾信息拦截、自动回复 |
 
 # Telegram 新闻吃瓜最新报道🍉
 
