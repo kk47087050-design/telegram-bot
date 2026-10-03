@@ -49,3 +49,15 @@ telegram电报分享: 75000➕中文最大社区群组和频道、机器人、�
 > * **兑换规则**：TRX-USDT 24 小时自动兑换，1U 起兑。
 
 ---
+### 🔍 电报群组搜索
+
+> #### 👥 搜索群大全 24H
+> * **搜索群1**：[点击进入](https://t.me/kuaisou122)
+> * **搜索群2**：[点击进入](https://t.me/Jisou8981)
+> * **搜索群3**：[点击进入](https://t.me/jisou123_jisoubot)
+> * **搜索群4**：[点击进入](https://t.me/tgsouqun)
+> * **搜索群5**：[点击进入](https://t.me/sos_raw1)
+> * **搜索群6**：[点击进入](https://t.me/aotuman007)
+> * **搜索群7**：[点击进入](https://t.me/susou89)
+> * **搜索群8**：[点击进入](https://t.me/souqunzu12)
+> * **搜索群9**：[点击进入](https://t.me/soso9577)
